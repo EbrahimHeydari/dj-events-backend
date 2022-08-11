@@ -25,7 +25,7 @@
       "type": "string"
     },
     "date": {
-      "type": "datetime"
+      "type": "date"
     },
     "time": {
       "type": "string"
@@ -37,14 +37,13 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+        "files"
+      ]
     },
     "user": {
       "type": "relation",
