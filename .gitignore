@@ -96,6 +96,10 @@ results
 node_modules
 .node_history
 
+# lock files
+yarn.lock
+package-lock.json
+
 ############################
 # Tests
 ############################

@@ -1,8 +1,8 @@
 {
-  "name": "strapi-starter",
+  "name": "dj-events-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Back-end application for dj-events blog",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -16,6 +16,8 @@
     "@strapi/provider-upload-cloudinary": "^4.3.4",
     "@strapi/strapi": "4.3.4",
     "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0",
     "slugify": "^1.6.5"
   },
   "author": {
